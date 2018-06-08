@@ -18,7 +18,7 @@ if (empty($data['payload']['call_id'])) {
 }
 
 query(
-    'INSERT INTO `queue` VALUES (NULL, :call_id, DEFAULT, NULL, NOW())',
+    'INSERT INTO `queue` VALUES (NULL, :call_id, DEFAULT, NULL, NOW(), NULL)',
     array(
         ':call_id' => trim($data['payload']['call_id'])
     )

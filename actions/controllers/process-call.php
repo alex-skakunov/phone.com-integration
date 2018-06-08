@@ -21,7 +21,7 @@ function getCallerFromLogs($item) {
 function isCallerPresentInAddressBook($item, $callerPhoneNumber) {
     $extensionApi = new Extension;
     
-    $extensionApi->deleteContact(EXTENSION_TO, 2632586);     return true;
+    //$extensionApi->deleteContact(EXTENSION_TO, 2632586);     return true;
 
     $response = $extensionApi->isCallerPresent(EXTENSION_TO, $callerPhoneNumber);
     if (200 != $response->getStatusCode()) {
