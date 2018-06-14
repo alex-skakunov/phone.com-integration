@@ -7,16 +7,16 @@ class Listener extends AbstractCall {
         $this->print_response($response);
     }
 
-    public function addListener($extensionId=EXTENSION_FROM) {
+    public function addListener() {
         $response = $this->get_client()->post(
-            'extensions/'.$extensionId.'/listeners',
+            'listeners',
             array(
                 'body' => '{
                 "type" : "callback", 
-                "event_type" : "call.log", 
+                "event_type" : "call.update", 
                 "callbacks" : [{ 
                     "role" : "main", 
-                    "url": "http://63.141.231.42/ani-route/incoming.php", 
+                    "url": "http://63.141.231.42/ani-route2/index.php?page=incoming", 
                     "verb": "POST" 
                     }]
                 }'

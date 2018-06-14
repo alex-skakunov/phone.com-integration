@@ -12,13 +12,13 @@ class Extension extends AbstractCall {
         $this->print_response($response);
     }
 
-    function isCallerPresent($extensionId=EXTENSION_TO, $callerPhoneNumber) {
+    function isCallerPresent($extensionId, $callerPhoneNumber) {
         $response = $this->get_client()->get('extensions/'.$extensionId.'/contacts?limit=1&fields=brief&filters%5Bphone%5D='
             .$callerPhoneNumber);
         return $response;
     }
 
-    function addContact($extensionId=EXTENSION_TO, $callerPhoneNumber) {
+    function addContact($extensionId, $callerPhoneNumber) {
         return $this->get_client()->post(
             'extensions/'.$extensionId.'/contacts',
             array(
@@ -29,7 +29,12 @@ class Extension extends AbstractCall {
                             "number" => $callerPhoneNumber,
                             "normalized" => $callerPhoneNumber
                         )
+                    ),
+
+                    'group' => array(
+                        'name' => "EXISTING ROUTE"
                     )
+
                 ))
             )
         );

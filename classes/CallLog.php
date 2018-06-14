@@ -11,4 +11,17 @@ class CallLog extends AbstractCall {
         $response = $this->get_client()->get('call-logs/' . $call_id);
         return $response;
     }
+
+    public function getForExtension($ext, $limit) {
+        $timestamp = strtotime('2 minutes ago');
+        $uri = 'call-logs/?filters[extension]='
+            . $ext
+            . '&filters[created_at]=gt:'
+            . $timestamp
+            . '&limit='
+            . $limit;
+        new dBug($uri);
+        $response = $this->get_client()->get($uri);
+        return $response;
+    }
 }

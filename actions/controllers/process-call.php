@@ -1,10 +1,9 @@
 <?php
 
-function getCallerFromLogs($item) {
+function getCallersFromLogs($ext, $limit=50) {
     $callLogApi = new CallLog;
-    query('UPDATE queue SET status="processing", error_message=NULL, processing_time=NULL WHERE id=' . $item['id']);
 
-    $response = $callLogApi->get($item['call_id']);
+    $response = $callLogApi->getForExtension($ext, $limit);
 
     if (200 != $response->getStatusCode()) {
         throw new Exception($response->getReasonPhrase());
@@ -15,15 +14,15 @@ function getCallerFromLogs($item) {
         throw new Exception('Could not convert the JSON: ' . substr($response->getBody()->getContents(), 0, 200));
     }
 
-    return trim($data['caller_id']);
+    return $data['items'];
 }
 
-function isCallerPresentInAddressBook($item, $callerPhoneNumber) {
+function isCallerPresentInAddressBook($extTo, $callerPhoneNumber) {
     $extensionApi = new Extension;
     
     //$extensionApi->deleteContact(EXTENSION_TO, 2632586);     return true;
 
-    $response = $extensionApi->isCallerPresent(EXTENSION_TO, $callerPhoneNumber);
+    $response = $extensionApi->isCallerPresent($extTo, $callerPhoneNumber);
     if (200 != $response->getStatusCode()) {
         throw new Exception($response->getReasonPhrase());
     }
@@ -36,46 +35,64 @@ function isCallerPresentInAddressBook($item, $callerPhoneNumber) {
     return (int)$data['total'] > 0;
 }
 
-function saveCallerToAddressBook($item, $callerPhoneNumber) {
+function saveCallerToAddressBook($extTo, $callerPhoneNumber) {
     $extensionApi = new Extension;
-    $response = $extensionApi->addContact(EXTENSION_TO, $callerPhoneNumber);
+    $response = $extensionApi->addContact($extTo, $callerPhoneNumber);
     if (!in_array($response->getStatusCode(), array(200, 201))) {
         throw new Exception($response->getReasonPhrase());
     }
 
     $data = json_decode($response->getBody()->getContents(), 1);
     if (empty($data)) {
-        throw new Exception('Could not convert the JSON: ' . substr($response->getBody()->getContents(), 0, 200));
+        throw new Exception('Could not convert the JSON: ' . $response->getBody()->getContents());
     }
 }
 
-$items = query('SELECT * FROM queue WHERE status="queued" LIMIT 10')->fetchAll();
-if (empty($items)) {
-    return;
-}
-
-foreach ($items as $item) {
-    $startTime = microtime_float();
+//phpinfo(); exit;
+foreach ($mapping as $extensionFrom => $extensionTo) {
     try {
-        $callerPhoneNumber = getCallerFromLogs($item);
-        if (!isCallerPresentInAddressBook($item, $callerPhoneNumber)) {
-            saveCallerToAddressBook($item, $callerPhoneNumber);
+        $callersList = getCallersFromLogs($extensionFrom);
+//var_dump($callersList);
+//        new dBug(array('list' => $callersList));
+        if (empty($callersList)) {
+           continue;
         }
-        $endTime = microtime_float();
-        query(
-            'UPDATE queue SET status="success", error_message=NULL, processing_time=:duration WHERE id=' . $item['id'],
-            array(':duration' => $endTime-$startTime)
-        );
+
+        foreach($callersList as $item) {
+            $callerPhoneNumber = $item['caller_id'];
+            if (strtolower($callerPhoneNumber) == 'private') {
+                continue;
+            }
+
+            if (isCallerPresentInAddressBook($extensionTo, $callerPhoneNumber)) {
+                new dBug(array($callerPhoneNumber => 'already present'));
+                continue;
+            }
+            saveCallerToAddressBook($extensionTo, $callerPhoneNumber);
+                query(
+                     'INSERT INTO logs VALUES (NULL, :from, :to, :caller, :status, NULL)',
+                     array(
+                         ':from' => $extensionFrom,
+                         ':to'   => $extensionTo,
+                         ':caller' => $callerPhoneNumber,
+                         ':status' => 'success'
+                     )
+                );
+                new dBug('Saved');
+        }
     }
     catch(Exception $e) {
-        $endTime = microtime_float();
         query(
-            'UPDATE queue SET status="error", error_message=:message, processing_time=:duration WHERE id=' . $item['id'],
-            array(
-                ':message' => $e->getMessage(),
-                ':duration' => $endTime-$startTime
-            )
+                     'INSERT INTO logs VALUES (NULL, :from, :to, :caller, :status, :error)',
+                     array(
+                         ':from' => $extensionFrom,
+                         ':to'   => $extensionTo,
+                         ':caller' => $callerPhoneNumber,
+                         ':status' => 'fail',
+                         ':error'  => $e->getMessage()
+                     )
         );
+        new dBug($e->getMessage());
         continue;
     }
 }
