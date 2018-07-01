@@ -5,6 +5,8 @@
         }
     },
     "require": {
-        "guzzlehttp/guzzle": "dev-master"
+        "guzzlehttp/guzzle": "dev-master",
+        "zendframework/zend-mail": "dev-master",
+        "zendframework/zend-servicemanager": "^2.5"
     }
 }

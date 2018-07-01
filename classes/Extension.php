@@ -18,7 +18,18 @@ class Extension extends AbstractCall {
         return $response;
     }
 
-    function addContact($extensionId, $callerPhoneNumber) {
+    function isCallerPresentInGroup($extensionId, $groupId, $callerPhoneNumber) {
+        $response = $this->get_client()->get('extensions/'
+            . $extensionId
+            . '/contacts?limit=1&fields=brief&filters%5Bphone%5D='
+            . $callerPhoneNumber
+            . '&filters%5Bgroup_id%5D='
+            . $groupId
+        );
+        return $response;
+    }
+
+    function addContact($extensionId, $contactGroupId, $callerPhoneNumber) {
         return $this->get_client()->post(
             'extensions/'.$extensionId.'/contacts',
             array(
@@ -32,7 +43,32 @@ class Extension extends AbstractCall {
                     ),
 
                     'group' => array(
+                        'id'   => $contactGroupId,
                         'name' => "EXISTING ROUTE"
+                    )
+
+                ))
+            )
+        );
+    }
+
+
+    function addContactOver7Minutes($extensionId, $contactGroupId, $callerPhoneNumber) {
+        return $this->get_client()->post(
+            'extensions/'.$extensionId.'/contacts',
+            array(
+                'body' => json_encode(array(
+                    "phone_numbers" => array(
+                        array(
+                            "type" => "business",
+                            "number" => $callerPhoneNumber,
+                            "normalized" => $callerPhoneNumber
+                        )
+                    ),
+
+                    'group' => array(
+                        'id'   => $contactGroupId,
+                        'name' => "OVER X MINUTES ROUTE"
                     )
 
                 ))

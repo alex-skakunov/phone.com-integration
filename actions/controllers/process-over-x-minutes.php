@@ -17,12 +17,10 @@ function getCallersFromLogs($ext, $limit=50) {
     return $data['items'];
 }
 
-function isCallerPresentInAddressBook($extTo, $callerPhoneNumber) {
+function isCallerPresentInAddressBookAndGroup($extTo, $groupId, $callerPhoneNumber) {
     $extensionApi = new Extension;
-    
-    //$extensionApi->deleteContact(EXTENSION_TO, 2632586);     return true;
-
-    $response = $extensionApi->isCallerPresent($extTo, $callerPhoneNumber);
+new dBug(array($extTo, $groupId, $callerPhoneNumber));
+    $response = $extensionApi->isCallerPresentInGroup($extTo, $groupId, $callerPhoneNumber);
     if (200 != $response->getStatusCode()) {
         throw new Exception($response->getReasonPhrase());
     }
@@ -31,13 +29,13 @@ function isCallerPresentInAddressBook($extTo, $callerPhoneNumber) {
     if (empty($data)) {
         throw new Exception('Could not convert the JSON: ' . substr($response->getBody()->getContents(), 0, 200));
     }
-
+new dBug($data);
     return (int)$data['total'] > 0;
 }
 
-function saveCallerToAddressBook($extTo, $contactGroupId, $callerPhoneNumber) {
+function saveCallerToAddressBookAndGroup($extTo, $contactGroupId, $callerPhoneNumber) {
     $extensionApi = new Extension;
-    $response = $extensionApi->addContact($extTo, $contactGroupId, $callerPhoneNumber);
+    $response = $extensionApi->addContactOver7Minutes($extTo, $contactGroupId, $callerPhoneNumber);
     if (!in_array($response->getStatusCode(), array(200, 201))) {
         throw new Exception($response->getReasonPhrase());
     }
@@ -48,18 +46,15 @@ function saveCallerToAddressBook($extTo, $contactGroupId, $callerPhoneNumber) {
     }
 }
 
-//phpinfo(); exit;
-foreach ($mapping as $extensionFrom => $destinationList) {
+foreach ($durationMapping as $extensionFrom => $destination) {
     try {
-        new dBug(array($extensionFrom => $destinationList));
-        $callersList = getCallersFromLogs($extensionFrom);
+        new dBug(array($extensionFrom => $destination));
+        $callersList = getCallersFromLogs($extensionFrom, 100);
+        new dBug(array('callers list' => $callersList));
         if (empty($callersList)) {
            continue;
         }
 
-new dBug($callersList);
-
-        foreach($destinationList as $destination) {
             $extensionTo = $destination['extension_to'];
             $contactGroupId = $destination['contact_group'];
 
@@ -69,13 +64,19 @@ new dBug($callersList);
                     continue;
                 }
 
-                if (isCallerPresentInAddressBook($extensionTo, $callerPhoneNumber)) {
+                $callDuration = (int)$item['call_duration'];
+                if ($callDuration < 420) {
+                   new dBug('Too short, skipping');
+                    continue;
+                }
+
+                if (isCallerPresentInAddressBookAndGroup($extensionTo, $contactGroupId, $callerPhoneNumber)) {
                     new dBug(array($callerPhoneNumber => 'already present'));
                     continue;
                 }
-                saveCallerToAddressBook($extensionTo, $contactGroupId, $callerPhoneNumber);
+                saveCallerToAddressBookAndGroup($extensionTo, $contactGroupId, $callerPhoneNumber);
                     query(
-                         'INSERT INTO logs VALUES (NULL, :from, :to, :caller, :status, NULL, NOW())',
+                         'INSERT INTO duration_logs VALUES (NULL, :from, :to, :caller, :status, NULL, NOW())',
                          array(
                              ':from' => $extensionFrom,
                              ':to'   => $extensionTo,
@@ -85,11 +86,11 @@ new dBug($callersList);
                     );
                     new dBug('Saved');
             }
-        }
+
     }
     catch(Exception $e) {
         query(
-                     'INSERT INTO logs VALUES (NULL, :from, :to, :caller, :status, :error, NOW())',
+                     'INSERT INTO duration_logs VALUES (NULL, :from, :to, :caller, :status, :error, NOW())',
                      array(
                          ':from' => $extensionFrom,
                          ':to'   => $extensionTo,
@@ -99,7 +100,7 @@ new dBug($callersList);
                      )
         );
         new dBug($e->getMessage());
-        sendFailEmail('The error message: ' . $e->getMessage());
+//        sendFailEmail('Could not save the OVER X minutes number ' . $e->getMessage());
         continue;
     }
 }

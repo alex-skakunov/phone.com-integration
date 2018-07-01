@@ -1,4 +1,33 @@
 <?php
+use Zend\Mail\Message;
+use Zend\Mail\Transport\Smtp as SmtpTransport;
+use Zend\Mail\Transport\SmtpOptions;
+
+function sendFailEmail($mess) {
+    return; //for now
+    $message = new Message();
+    $message->addTo('ITbugs@powerfusion.info');
+    $message->addTo('cphilipaffiliate@gmail.com');
+    $message->addFrom('Service Report <service.reports.mail@gmail.com>');
+    $message->setSubject('An error has occured');
+    $message->setBody($mess);
+
+    $transport = new SmtpTransport();
+    $options   = new SmtpOptions([
+        'name'              => 'gmail.com',
+        'host'              => 'smtp.gmail.com',
+        'port'              => 587,
+        // Notice port change for TLS is 587
+        'connection_class'  => 'plain',
+        'connection_config' => [
+            'username' => 'service.reports.mail@gmail.com',
+            'password' => 'accounts567',
+            'ssl'      => 'tls',
+        ],
+    ]);
+    $transport->setOptions($options);
+    return $transport->send($message);
+}
 
 //checks that we have all modules we need or exit() will be called
 function check_necessary_functions()
