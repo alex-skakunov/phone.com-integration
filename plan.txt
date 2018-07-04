@@ -1,0 +1,24 @@
+1. Local env
+  + commit the updates to repositiry
+  + copy the database
+  + setup the local scripts
+  + write some Unit tests to automate the check that everything works as expected
+
+2. New approach to save
+  + make the numbers mapping in the databases
+  + create queue table
+  + rewrite the code to save the numbers to queue (without calling the API)
+  + when adding a record, check if it already exists with status=success
+  + investigate the API docs if the call can have multiple records
+  + write a worker script: get a few records and call the API one by one
+  * merge 2 tables together: logs + update_logs
+
+3. New approach for the backup script
+  * run on hourly basis
+  + check the successful records in DB first
+
+4. New approach for the "more than X" script
+  * find out the interval and change it
+
+5. Fix the failed numbers
+  * just write a script to fix those

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- http://ant.apache.org/manual/using.html -->
+
+<project name="ANI" default="build" basedir=".">
+    <property environment="env"/>
+
+    <target name="build" depends="lint, phpunit" />
+
+    <target name="lint" description="Perform syntax check of sourcecode files">
+        <parallel threadcount="3">
+            <apply executable="php" failonerror="true">
+                <arg value="-l" />
+
+                <fileset dir="${basedir}/actions">
+                    <include name="**/*.php" />
+                    <exclude name="Zend/**"/>
+                    <modified>
+                        <param name="cache.cachefile" value="${basedir}/etc/build/cache.properties"/>
+                    </modified>
+                </fileset>  
+            </apply>
+            
+            <apply executable="php" failonerror="true">
+                <arg value="-l" />
+
+                <fileset dir="${basedir}/classes">
+                    <include name="**/*.php" />
+                    <include name="**/*.phtml" />
+                    <modified>
+                        <param name="cache.cachefile" value="${basedir}/etc/build/cache.properties"/>
+                    </modified>
+                </fileset>
+            </apply>
+            
+            <apply executable="php" failonerror="true">
+                <arg value="-l" />
+                <fileset dir="${basedir}/tests">
+                    <include name="**/*.php" />
+                    <modified>
+                        <param name="cache.cachefile" value="${basedir}/etc/build/cache.properties"/>
+                    </modified>
+                </fileset>
+            </apply>
+        </parallel>
+    </target>
+
+    <target name="phpunit" description="Run unit tests with PHPUnit">
+        <exec executable="./vendor/bin/phpunit" failonerror="true" osfamily="unix">
+            <arg line="--bootstrap ${basedir}/tests/bootstrap.php --configuration ${basedir}/tests/phpunit.xml"/>
+            <env key="APPLICATION_ENV" value="dev"/>
+        </exec>
+    </target>
+
+</project>

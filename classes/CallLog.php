@@ -2,20 +2,32 @@
 
 class CallLog extends AbstractCall {
 
-    public function list_call_logs() {
-        $response = $this->get_client()->get('call-logs?limit=1&filters%5Bcalled_number%5D=%2B17258672634');
-        $this->print_response($response);
-    }
-
     public function get($call_id) {
         $response = $this->get_client()->get('call-logs/' . $call_id);
         return $response;
     }
 
-    public function getForExtension($ext, $limit) {
-        $timestamp = strtotime('3 minutes ago');
-        $uri = 'call-logs/?filters[extension]='
-            . $ext
+    function getCallsFromLogs($shortExtension, $lookback='1 hour ago', $limit=500) {
+        $extensionApi = new Extension;
+        $extension = $extensionApi->fetchExtensionByShort($shortExtension);
+        $response = $this->getForExtension($extension['extension_id'], $lookback, $limit);
+
+        if (200 != $response->getStatusCode()) {
+            throw new Exception($response->getReasonPhrase());
+        }
+
+        $data = json_decode($response->getBody()->getContents(), 1);
+        if (empty($data)) {
+            throw new Exception('Could not convert the JSON: ' . substr($response->getBody()->getContents(), 0, 200));
+        }
+
+        return $data['items'];
+    }
+
+    public function getForExtension($extensionId, $lookback, $limit=500) {
+        $timestamp = strtotime($lookback);
+        $uri = 'call-logs/?fields=brief&filters[extension]='
+            . $extensionId
             . '&filters[created_at]=gt:'
             . $timestamp
             . '&limit='
@@ -25,16 +37,4 @@ class CallLog extends AbstractCall {
         return $response;
     }
 
-    public function getForExtensionLast2Days($ext, $limit) {
-        $timestamp = strtotime('5 minutes ago');
-        $uri = 'call-logs/?filters[extension]='
-            . $ext
-            . '&filters[created_at]=gt:'
-            . $timestamp
-            . '&limit='
-            . $limit;
-        new dBug($uri);
-        $response = $this->get_client()->get($uri);
-        return $response;
-    }
 }

@@ -1,0 +1,14 @@
+<phpunit bootstrap="bootstrap.php" colors="true" backupGlobals="false">
+    <filter>
+        <blacklist>
+            <directory>../../vendor</directory>
+            <file>../../classes/dBug.php</file>
+        </blacklist>
+    </filter>
+    <testsuites>
+        <testsuite name="main">
+            <directory>actions</directory>
+            <directory>classes</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

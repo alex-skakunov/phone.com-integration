@@ -11,6 +11,7 @@ require_once "AbstractCall.php";
 require_once "CallLog.php";
 require_once "Extension.php";
 require_once "Listener.php";
+require_once "Queue.php";
 
 
 if( !is_writable( LOGS_DIR ) )
