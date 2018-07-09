@@ -9,7 +9,7 @@ class QueueTest extends PHPUnit_Framework_TestCase {
         $queue->setStatusProcessing($id);
         $queue->setStatusError($id, 'some error message', 2.345);
         $queue->setStatusSuccess($id, 2.345);
-        //$queue->removeRecord($id);
+        $queue->removeRecord($id);
     }
 }
 
