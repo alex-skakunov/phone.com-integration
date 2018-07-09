@@ -13,7 +13,7 @@ class Queue {
                 ':contact_group' => $contactGroupName,
                 ':phone_number' => $phoneNumber,
                 ':source' => $source,
-                ':payload' => print_r($payload, 1),
+                ':payload' => (is_array($payload) ? json_encode($payload) : $payload),
             )
         );
         return $db->lastInsertId();
