@@ -2,15 +2,18 @@
 
 class Queue {
 
-    public function add($shortExtension, $contactGroupName, $phoneNumber) {
+    public function add($shortExtensionFrom, $shortExtensionTo, $contactGroupName, $phoneNumber, $source, $payload) {
         global $db;
         $stmt = query(
-            'INSERT IGNORE INTO queue (`extension_to`, `contact_group`, `phone_number`, `created_at`)
-             VALUES (:short_extension, :contact_group, :phone_number, NOW())',
+            'INSERT IGNORE INTO queue (`extension_from`, `extension_to`, `contact_group`, `phone_number`, `source`, `payload`, `created_at`)
+             VALUES (:extension_from, :extension_to, :contact_group, :phone_number, :source, :payload, NOW())',
             array(
-                ':short_extension' => $shortExtension,
+                ':extension_from' => $shortExtensionFrom,
+                ':extension_to' => $shortExtensionTo,
                 ':contact_group' => $contactGroupName,
-                ':phone_number' => $phoneNumber
+                ':phone_number' => $phoneNumber,
+                ':source' => $source,
+                ':payload' => print_r($payload, 1),
             )
         );
         return $db->lastInsertId();

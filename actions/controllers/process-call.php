@@ -27,8 +27,7 @@ foreach ($mapping as $shortExtensionFrom => $destinationList) {
             if (in_array(strtolower($callerPhoneNumber), array('private', 'unknown', ''))) {
                 continue;
             }
-
-            $queue->add($shortExtensionTo, EXISTING_ROUTE, $callerPhoneNumber);
+            $queue->add($shortExtensionFrom, $shortExtensionTo, EXISTING_ROUTE, $callerPhoneNumber, 'call log', $item);
         }
     }
 }

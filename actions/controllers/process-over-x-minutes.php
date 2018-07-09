@@ -36,7 +36,7 @@ foreach ($durationMapping as $shortExtensionFrom => $destinationList) {
                 continue;
             }
 
-            $queue->add($shortExtensionTo, OVER_X_MINUTES, $callerPhoneNumber);
+            $queue->add($shortExtensionFrom, $shortExtensionTo, OVER_X_MINUTES, $callerPhoneNumber, 'duration log', $item);
         }
     }
 
