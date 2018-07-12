@@ -8,16 +8,17 @@ $durationMapping = $extensionApi->getDurationMappings();
 $callLogApi = new CallLog;
 
 foreach ($durationMapping as $shortExtensionFrom => $destinationList) {
-    new dBug(array($shortExtensionFrom => $destinationList));
+    // new dBug(array($shortExtensionFrom => $destinationList));
 
     try {
         $callersList = $callLogApi->getCallsFromLogs($shortExtensionFrom, '5 minutes ago');
     }
     catch(Exception $e) {
         error_log('[Process call] error: ' . $e);
+        continue;
     }
 
-    new dBug(array('callers list' => $callersList));
+    // new dBug(array('callers list' => $callersList));
     
     if (empty($callersList)) {
        continue;

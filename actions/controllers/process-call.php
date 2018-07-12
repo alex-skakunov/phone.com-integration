@@ -7,19 +7,20 @@ $mapping = $extensionApi->getMappings();
 
 $callLogApi = new CallLog;
 foreach ($mapping as $shortExtensionFrom => $destinationList) {
-    new dBug(array($shortExtensionFrom => $destinationList));
+    // new dBug(array($shortExtensionFrom => $destinationList));
     try {
         $callersList = $callLogApi->getCallsFromLogs($shortExtensionFrom, '5 minutes ago');
     }
     catch(Exception $e) {
         error_log('[Process call] error: ' . $e);
+        continue;
     }
 
     if (empty($callersList)) {
-       continue;
+        continue;
     }
 
-    new dBug($callersList);
+    // new dBug($callersList);
 
     foreach($destinationList as $shortExtensionTo) {
         foreach($callersList as $item) {
