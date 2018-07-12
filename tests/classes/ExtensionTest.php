@@ -2,6 +2,17 @@
 
 class ExtensionTest extends PHPUnit_Framework_TestCase {
 
+    /*
+    public function testMakingMultipleRequests() {
+        $extensionApi = new Extension;
+        for ($i=0; $i < 1; $i++) {
+            $extensionApi->isCallerPresentInAddressBookAndGroup(1843341, 392914, '17329910066');
+            $extensionApi->saveCallerToAddressBookAndGroup(1843341, 392914, 'Family', '17329910066');
+            $this->assertTrue(true);
+        }
+    }
+    */
+
     public function testContactsCheck() {
         $extensionApi = new Extension;
         

@@ -26,8 +26,8 @@ class Extension extends AbstractCall {
         return (int)$data['total'] > 0;
     }
 
-    public function saveCallerToAddressBookAndGroup($extensionId, $contactGroupId, $callerPhoneNumber) {
-        $response = $this->addContactOver7Minutes($extensionId, $contactGroupId, $callerPhoneNumber);
+    public function saveCallerToAddressBookAndGroup($extensionId, $contactGroupId, $contactGroupName, $callerPhoneNumber) {
+        $response = $this->addContact($extensionId, $contactGroupId, $contactGroupName, $callerPhoneNumber);
         if (!in_array($response->getStatusCode(), array(200, 201))) {
             throw new Exception($response->getReasonPhrase());
         }
@@ -50,7 +50,7 @@ class Extension extends AbstractCall {
         return $response;
     }
 
-    public function addContact($extensionId, $contactGroupId, $callerPhoneNumber) {
+    public function addContact($extensionId, $contactGroupId, $contactGroupName, $callerPhoneNumber) {
         return $this->get_client()->post(
             'extensions/'.$extensionId.'/contacts',
             array(
@@ -65,31 +65,7 @@ class Extension extends AbstractCall {
 
                     'group' => array(
                         'id'   => $contactGroupId,
-                        'name' => "EXISTING ROUTE"
-                    )
-
-                ))
-            )
-        );
-    }
-
-
-    public function addContactOver7Minutes($extensionId, $contactGroupId, $callerPhoneNumber) {
-        return $this->get_client()->post(
-            'extensions/'.$extensionId.'/contacts',
-            array(
-                'body' => json_encode(array(
-                    "phone_numbers" => array(
-                        array(
-                            "type" => "business",
-                            "number" => $callerPhoneNumber,
-                            "normalized" => $callerPhoneNumber
-                        )
-                    ),
-
-                    'group' => array(
-                        'id'   => $contactGroupId,
-                        'name' => "OVER X MINUTES ROUTE"
+                        'name' => $contactGroupName
                     )
 
                 ))
