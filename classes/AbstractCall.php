@@ -1,16 +1,10 @@
 <?php
+include_once 'HttpClient.php';
 
 class AbstractCall {
 
     protected function get_client() {
-        return new \GuzzleHttp\Client([
-            'base_uri' => 'https://api.phone.com/v4/accounts/'.ACCOUNT_ID.'/',
-            'headers' => array(
-                'Authorization' => "Bearer " . ACCESS_TOKEN,
-                'cache-control' => 'no-cache',
-                'content-type' => 'application/json'
-            )
-        ]);
+        return HttpClient::getInstance();
     }
 
     protected function print_response($response) {

@@ -31,5 +31,5 @@ if (empty($mappingList)) {
 $queue = new Queue;
 foreach($mappingList as $mapping) {
     $shortExtensionTo = $mapping['to_extension'];
-    $queue->add($extensionFrom, $shortExtensionTo, EXISTING_ROUTE, $callerPhoneNumber, 'call.update', $json);
+    $queue->add($extensionFrom, $shortExtensionTo, EXISTING_ROUTE, $callerPhoneNumber, 'call.update', $data);
 }

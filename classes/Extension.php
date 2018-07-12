@@ -13,7 +13,6 @@ class Extension extends AbstractCall {
     }
 
     public function isCallerPresentInAddressBookAndGroup($extensionId, $contactGroupId, $callerPhoneNumber) {
-        new dBug(array($extensionId, $contactGroupId, $callerPhoneNumber));
         $response = $this->isCallerPresentInGroup($extensionId, $contactGroupId, $callerPhoneNumber);
         if (200 != $response->getStatusCode()) {
             throw new Exception($response->getReasonPhrase());
@@ -23,7 +22,7 @@ class Extension extends AbstractCall {
         if (empty($data)) {
             throw new Exception('Could not convert the JSON: ' . substr($response->getBody()->getContents(), 0, 200));
         }
-        new dBug($data);
+
         return (int)$data['total'] > 0;
     }
 
