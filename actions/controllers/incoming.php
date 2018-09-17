@@ -6,6 +6,8 @@ if ('POST' != $_SERVER['REQUEST_METHOD']) {
 
 $json = $HTTP_RAW_POST_DATA;
 $data = json_decode($json, 1);
+error_log(print_r($data, 1));
+
 if (empty($data['payload'])) {
     exit;
 }
@@ -15,6 +17,9 @@ if (empty($data['payload']['from_did'])) {
 }
 
 $extensionFrom = $data['payload']['to_extn'];
+if (empty($extensionFrom)) {
+  exit;
+}
 
 $callerPhoneNumber = strtolower(trim($data['payload']['from_did']));
 if (in_array($callerPhoneNumber, array('private', 'unknown', ''))) {

@@ -1,0 +1,2619 @@
+{
+    "@meta": {
+        "@controls": {
+            "profile": {
+                "href": "https://api.phone.com/v4/docs/list-account-extension-contact-groups"
+            }
+        }
+    },
+    "filters": {},
+    "sort": {
+        "name": "asc"
+    },
+    "total": 136,
+    "offset": 0,
+    "limit": 500,
+    "items": [
+        {
+            "id": 388923,
+            "name": "EXISTING ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/388923",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/388923",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/388923"
+                }
+            }
+        },
+        {
+            "id": 390363,
+            "name": "EXISTING ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390363",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390363",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390363"
+                }
+            }
+        },
+        {
+            "id": 390362,
+            "name": "EXISTING ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390362",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390362",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390362"
+                }
+            }
+        },
+        {
+            "id": 390361,
+            "name": "EXISTING ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390361",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390361",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390361"
+                }
+            }
+        },
+        {
+            "id": 390360,
+            "name": "EXISTING ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390360",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390360",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390360"
+                }
+            }
+        },
+        {
+            "id": 390359,
+            "name": "EXISTING ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390359",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390359",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390359"
+                }
+            }
+        },
+        {
+            "id": 390358,
+            "name": "EXISTING ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390358",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390358",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390358"
+                }
+            }
+        },
+        {
+            "id": 390044,
+            "name": "EXISTING ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390044",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390044",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390044"
+                }
+            }
+        },
+        {
+            "id": 390043,
+            "name": "EXISTING ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390043",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390043",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/390043"
+                }
+            }
+        },
+        {
+            "id": 404697,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404697",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404697",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404697"
+                }
+            }
+        },
+        {
+            "id": 404573,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404573",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404573",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404573"
+                }
+            }
+        },
+        {
+            "id": 404304,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404304",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404304",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404304"
+                }
+            }
+        },
+        {
+            "id": 404231,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404231",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404231",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404231"
+                }
+            }
+        },
+        {
+            "id": 403703,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403703",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403703",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403703"
+                }
+            }
+        },
+        {
+            "id": 403598,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403598",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403598",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403598"
+                }
+            }
+        },
+        {
+            "id": 404828,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404828",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404828",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404828"
+                }
+            }
+        },
+        {
+            "id": 404830,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404830",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404830",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/404830"
+                }
+            }
+        },
+        {
+            "id": 405016,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405016",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405016",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405016"
+                }
+            }
+        },
+        {
+            "id": 405123,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405123",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405123",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405123"
+                }
+            }
+        },
+        {
+            "id": 405161,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405161",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405161",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405161"
+                }
+            }
+        },
+        {
+            "id": 405370,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405370",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405370",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405370"
+                }
+            }
+        },
+        {
+            "id": 405669,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405669",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405669",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405669"
+                }
+            }
+        },
+        {
+            "id": 405747,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405747",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405747",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405747"
+                }
+            }
+        },
+        {
+            "id": 403554,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403554",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403554",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403554"
+                }
+            }
+        },
+        {
+            "id": 403472,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403472",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403472",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403472"
+                }
+            }
+        },
+        {
+            "id": 402513,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402513",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402513",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402513"
+                }
+            }
+        },
+        {
+            "id": 402519,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402519",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402519",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402519"
+                }
+            }
+        },
+        {
+            "id": 402742,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402742",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402742",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402742"
+                }
+            }
+        },
+        {
+            "id": 402871,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402871",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402871",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402871"
+                }
+            }
+        },
+        {
+            "id": 402899,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402899",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402899",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402899"
+                }
+            }
+        },
+        {
+            "id": 402992,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402992",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402992",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402992"
+                }
+            }
+        },
+        {
+            "id": 403050,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403050",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403050",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403050"
+                }
+            }
+        },
+        {
+            "id": 403110,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403110",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403110",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403110"
+                }
+            }
+        },
+        {
+            "id": 403112,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403112",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403112",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403112"
+                }
+            }
+        },
+        {
+            "id": 403184,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403184",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403184",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403184"
+                }
+            }
+        },
+        {
+            "id": 403213,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403213",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403213",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403213"
+                }
+            }
+        },
+        {
+            "id": 403263,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403263",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403263",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403263"
+                }
+            }
+        },
+        {
+            "id": 403419,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403419",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403419",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403419"
+                }
+            }
+        },
+        {
+            "id": 403438,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403438",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403438",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/403438"
+                }
+            }
+        },
+        {
+            "id": 405830,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405830",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405830",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405830"
+                }
+            }
+        },
+        {
+            "id": 405884,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405884",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405884",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/405884"
+                }
+            }
+        },
+        {
+            "id": 406039,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/406039",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/406039",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/406039"
+                }
+            }
+        },
+        {
+            "id": 407996,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407996",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407996",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407996"
+                }
+            }
+        },
+        {
+            "id": 408104,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408104",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408104",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408104"
+                }
+            }
+        },
+        {
+            "id": 408414,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408414",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408414",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408414"
+                }
+            }
+        },
+        {
+            "id": 408436,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408436",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408436",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408436"
+                }
+            }
+        },
+        {
+            "id": 408517,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408517",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408517",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408517"
+                }
+            }
+        },
+        {
+            "id": 408519,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408519",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408519",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408519"
+                }
+            }
+        },
+        {
+            "id": 408551,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408551",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408551",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408551"
+                }
+            }
+        },
+        {
+            "id": 408578,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408578",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408578",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408578"
+                }
+            }
+        },
+        {
+            "id": 408698,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408698",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408698",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408698"
+                }
+            }
+        },
+        {
+            "id": 408765,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408765",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408765",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408765"
+                }
+            }
+        },
+        {
+            "id": 408863,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408863",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408863",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408863"
+                }
+            }
+        },
+        {
+            "id": 408867,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408867",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408867",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/408867"
+                }
+            }
+        },
+        {
+            "id": 409065,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/409065",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/409065",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/409065"
+                }
+            }
+        },
+        {
+            "id": 407858,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407858",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407858",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407858"
+                }
+            }
+        },
+        {
+            "id": 407712,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407712",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407712",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407712"
+                }
+            }
+        },
+        {
+            "id": 407630,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407630",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407630",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407630"
+                }
+            }
+        },
+        {
+            "id": 406323,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/406323",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/406323",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/406323"
+                }
+            }
+        },
+        {
+            "id": 406899,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/406899",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/406899",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/406899"
+                }
+            }
+        },
+        {
+            "id": 407043,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407043",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407043",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407043"
+                }
+            }
+        },
+        {
+            "id": 407044,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407044",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407044",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407044"
+                }
+            }
+        },
+        {
+            "id": 407081,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407081",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407081",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407081"
+                }
+            }
+        },
+        {
+            "id": 407091,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407091",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407091",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407091"
+                }
+            }
+        },
+        {
+            "id": 407170,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407170",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407170",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407170"
+                }
+            }
+        },
+        {
+            "id": 407257,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407257",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407257",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407257"
+                }
+            }
+        },
+        {
+            "id": 407283,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407283",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407283",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407283"
+                }
+            }
+        },
+        {
+            "id": 407339,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407339",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407339",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407339"
+                }
+            }
+        },
+        {
+            "id": 407387,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407387",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407387",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407387"
+                }
+            }
+        },
+        {
+            "id": 407399,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407399",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407399",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407399"
+                }
+            }
+        },
+        {
+            "id": 407534,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407534",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407534",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/407534"
+                }
+            }
+        },
+        {
+            "id": 409171,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/409171",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/409171",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/409171"
+                }
+            }
+        },
+        {
+            "id": 402485,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402485",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402485",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402485"
+                }
+            }
+        },
+        {
+            "id": 389434,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/389434",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/389434",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/389434"
+                }
+            }
+        },
+        {
+            "id": 395655,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395655",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395655",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395655"
+                }
+            }
+        },
+        {
+            "id": 396219,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/396219",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/396219",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/396219"
+                }
+            }
+        },
+        {
+            "id": 396275,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/396275",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/396275",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/396275"
+                }
+            }
+        },
+        {
+            "id": 396997,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/396997",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/396997",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/396997"
+                }
+            }
+        },
+        {
+            "id": 397015,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397015",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397015",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397015"
+                }
+            }
+        },
+        {
+            "id": 397229,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397229",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397229",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397229"
+                }
+            }
+        },
+        {
+            "id": 397785,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397785",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397785",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397785"
+                }
+            }
+        },
+        {
+            "id": 397940,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397940",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397940",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397940"
+                }
+            }
+        },
+        {
+            "id": 397966,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397966",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397966",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/397966"
+                }
+            }
+        },
+        {
+            "id": 398003,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398003",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398003",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398003"
+                }
+            }
+        },
+        {
+            "id": 398083,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398083",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398083",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398083"
+                }
+            }
+        },
+        {
+            "id": 398546,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398546",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398546",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398546"
+                }
+            }
+        },
+        {
+            "id": 398597,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398597",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398597",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398597"
+                }
+            }
+        },
+        {
+            "id": 395301,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395301",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395301",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395301"
+                }
+            }
+        },
+        {
+            "id": 395288,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395288",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395288",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395288"
+                }
+            }
+        },
+        {
+            "id": 395164,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395164",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395164",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/395164"
+                }
+            }
+        },
+        {
+            "id": 391308,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391308",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391308",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391308"
+                }
+            }
+        },
+        {
+            "id": 391309,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391309",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391309",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391309"
+                }
+            }
+        },
+        {
+            "id": 391336,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391336",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391336",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391336"
+                }
+            }
+        },
+        {
+            "id": 391694,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391694",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391694",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391694"
+                }
+            }
+        },
+        {
+            "id": 391974,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391974",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391974",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391974"
+                }
+            }
+        },
+        {
+            "id": 391995,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391995",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391995",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/391995"
+                }
+            }
+        },
+        {
+            "id": 392477,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/392477",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/392477",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/392477"
+                }
+            }
+        },
+        {
+            "id": 393308,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393308",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393308",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393308"
+                }
+            }
+        },
+        {
+            "id": 393376,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393376",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393376",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393376"
+                }
+            }
+        },
+        {
+            "id": 393529,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393529",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393529",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393529"
+                }
+            }
+        },
+        {
+            "id": 393585,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393585",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393585",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/393585"
+                }
+            }
+        },
+        {
+            "id": 394584,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/394584",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/394584",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/394584"
+                }
+            }
+        },
+        {
+            "id": 394637,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/394637",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/394637",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/394637"
+                }
+            }
+        },
+        {
+            "id": 398767,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398767",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398767",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398767"
+                }
+            }
+        },
+        {
+            "id": 398836,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398836",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398836",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/398836"
+                }
+            }
+        },
+        {
+            "id": 399115,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399115",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399115",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399115"
+                }
+            }
+        },
+        {
+            "id": 401416,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401416",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401416",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401416"
+                }
+            }
+        },
+        {
+            "id": 401513,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401513",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401513",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401513"
+                }
+            }
+        },
+        {
+            "id": 401521,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401521",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401521",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401521"
+                }
+            }
+        },
+        {
+            "id": 401560,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401560",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401560",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401560"
+                }
+            }
+        },
+        {
+            "id": 401567,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401567",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401567",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401567"
+                }
+            }
+        },
+        {
+            "id": 401665,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401665",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401665",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401665"
+                }
+            }
+        },
+        {
+            "id": 401666,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401666",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401666",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401666"
+                }
+            }
+        },
+        {
+            "id": 401688,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401688",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401688",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401688"
+                }
+            }
+        },
+        {
+            "id": 401719,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401719",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401719",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401719"
+                }
+            }
+        },
+        {
+            "id": 401908,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401908",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401908",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401908"
+                }
+            }
+        },
+        {
+            "id": 401909,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401909",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401909",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401909"
+                }
+            }
+        },
+        {
+            "id": 401994,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401994",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401994",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401994"
+                }
+            }
+        },
+        {
+            "id": 402323,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402323",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402323",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402323"
+                }
+            }
+        },
+        {
+            "id": 401145,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401145",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401145",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401145"
+                }
+            }
+        },
+        {
+            "id": 401033,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401033",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401033",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401033"
+                }
+            }
+        },
+        {
+            "id": 401032,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401032",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401032",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/401032"
+                }
+            }
+        },
+        {
+            "id": 399181,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399181",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399181",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399181"
+                }
+            }
+        },
+        {
+            "id": 399410,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399410",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399410",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399410"
+                }
+            }
+        },
+        {
+            "id": 399815,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399815",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399815",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399815"
+                }
+            }
+        },
+        {
+            "id": 399892,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399892",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399892",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399892"
+                }
+            }
+        },
+        {
+            "id": 399917,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399917",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399917",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/399917"
+                }
+            }
+        },
+        {
+            "id": 400216,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400216",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400216",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400216"
+                }
+            }
+        },
+        {
+            "id": 400252,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400252",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400252",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400252"
+                }
+            }
+        },
+        {
+            "id": 400307,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400307",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400307",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400307"
+                }
+            }
+        },
+        {
+            "id": 400489,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400489",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400489",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400489"
+                }
+            }
+        },
+        {
+            "id": 400496,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400496",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400496",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400496"
+                }
+            }
+        },
+        {
+            "id": 400535,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400535",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400535",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400535"
+                }
+            }
+        },
+        {
+            "id": 400656,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400656",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400656",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400656"
+                }
+            }
+        },
+        {
+            "id": 400933,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400933",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400933",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/400933"
+                }
+            }
+        },
+        {
+            "id": 402405,
+            "name": "OVER X MINUTES ROUTE",
+            "@controls": {
+                "phonedotcom:replace-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402405",
+                    "method": "PUT",
+                    "schemaUrl": "https://api.phone.com/v4/inputs/replace-account-extension-contact-group",
+                    "encoding": "json"
+                },
+                "phonedotcom:delete-account-extension-contact-group": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402405",
+                    "method": "DELETE"
+                },
+                "self": {
+                    "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups/402405"
+                }
+            }
+        }
+    ],
+    "@controls": {
+        "first": {
+            "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups?limit=500&offset=0"
+        },
+        "up": {
+            "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678"
+        },
+        "self": {
+            "href": "https://api.phone.com/v4/accounts/691163/extensions/1843678/contact-groups",
+            "schemaUrl": "https://api.phone.com/v4/inputs/list-account-extension-contact-groups"
+        }
+    },
+    "@namespaces": {
+        "phonedotcom": {
+            "name": "https://api.phone.com/v4/docs/"
+        }
+    }
+}

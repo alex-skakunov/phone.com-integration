@@ -1,0 +1,27 @@
+<?php
+
+$extensionApi = new Extension;
+define('COUNT', 100);
+$offset = 2900;
+
+$groupId = 389434;
+$extensionId = 1843678;
+while(true) { 
+    $response = $extensionApi->getContactsOfGroup(
+       $extensionId,
+       $groupId,
+       COUNT,
+       $offset
+    );
+
+    if (empty($response)) break;
+
+    $data = json_decode($response->getBody()->getContents(), 1);
+    new dBug($data);
+    if (empty($data) || empty($data['items'])) break;
+
+    foreach ($data['items'] as $contact) {
+	query('INSERT IGNORE INTO _group_contacts VALUES (NULL, '.$groupId.', "'.$contact['phone_numbers'][0]['normalized'] . '")');
+    }
+    $offset += COUNT;
+}

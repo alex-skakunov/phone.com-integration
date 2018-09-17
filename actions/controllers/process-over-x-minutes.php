@@ -11,7 +11,7 @@ foreach ($durationMapping as $shortExtensionFrom => $destinationList) {
     // new dBug(array($shortExtensionFrom => $destinationList));
 
     try {
-        $callersList = $callLogApi->getCallsFromLogs($shortExtensionFrom, '5 minutes ago');
+        $callersList = $callLogApi->getCallsFromLogs($shortExtensionFrom, '1 hour ago');
     }
     catch(Exception $e) {
         error_log('[Process call] error: ' . $e);

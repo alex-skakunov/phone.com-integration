@@ -19,8 +19,8 @@ class Queue {
         return $db->lastInsertId();
     }
 
-    public function fetch($limit=10) {
-        $stmt = query('SELECT * FROM queue WHERE status="queued" LIMIT ' . (int)$limit);
+    public function fetch($limit=10, $direction='id DESC') {
+        $stmt = query('SELECT * FROM queue WHERE status="queued" ORDER BY '. $direction.' LIMIT ' . (int)$limit);
         return $stmt->fetchAll();
     }
 
@@ -31,7 +31,7 @@ class Queue {
     public function setStatusError($id, $errorMessage, $processingTime=null) {
         query(
             'UPDATE queue SET
-                status="error",
+                status="queued",
                 error_message=:error_message,
                 processing_time=:processing_time
              WHERE id=' . $id,

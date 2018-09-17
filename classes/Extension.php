@@ -7,9 +7,10 @@ class Extension extends AbstractCall {
         $this->print_response($response);
     }
 
-    public function listContactGroups($extensionId) {
-        $response = $this->get_client()->get('extensions/'.$extensionId.'/contact-groups');
-        $this->print_response($response);
+    public function listContactGroups($extensionId, $limit=25, $offset=0) {
+        $response = $this->get_client()->get('extensions/'.$extensionId.'/contact-groups?limit='.$limit.'&offset='.$offset);
+//        $this->print_response($response);
+        return json_decode($response->getBody()->getContents(), 1);
     }
 
     public function isCallerPresentInAddressBookAndGroup($extensionId, $contactGroupId, $callerPhoneNumber) {
@@ -45,7 +46,30 @@ class Extension extends AbstractCall {
             . '/contacts?limit=1&fields=brief&filters%5Bphone%5D='
             . $callerPhoneNumber
             . '&filters%5Bgroup_id%5D='
-            . $groupId
+            . $groupId,
+          array('timeout' => 180)
+        );
+        return $response;
+    }
+
+
+    public function getCallerInExtension($extensionId, $callerPhoneNumber) {
+        $response = $this->get_client()->get('extensions/'
+            . $extensionId
+            . '/contacts?filters%5Bphone%5D='
+            . $callerPhoneNumber,
+          array('timeout' => 180)
+        );
+        return $response;
+    }
+
+
+    public function getContactsOfGroup($extensionId, $groupId, $count=50, $offset=0) {
+        $response = $this->get_client()->get('extensions/'
+            . $extensionId
+            . '/contacts?limit='.$count.'&offset='.$offset.'&filters%5Bgroup_id%5D='
+            . $groupId,
+          array('timeout' => 180)
         );
         return $response;
     }
@@ -54,6 +78,7 @@ class Extension extends AbstractCall {
         return $this->get_client()->post(
             'extensions/'.$extensionId.'/contacts',
             array(
+                'timeout' => 180,
                 'body' => json_encode(array(
                     "phone_numbers" => array(
                         array(
@@ -73,8 +98,18 @@ class Extension extends AbstractCall {
         );
     }
 
-    public function deleteContact($extensionId=EXTENSION_TO, $contactId) {
-        return $this->get_client()->delete('extensions/'.$extensionId.'/contacts/'.$contactId);
+    public function deleteContact($extensionId, $contactId) {
+        return $this->get_client()->delete(
+            'extensions/'.$extensionId.'/contacts/'.$contactId,
+            array('timeout' => 180)
+        );
+    }
+
+    public function deleteGroup($extensionId, $groupId) {
+        return $this->get_client()->delete(
+            'extensions/'.$extensionId.'/contact-groups/'.$groupId,
+            array('timeout' => 180)
+        );
     }
 
     public function getMappingByShortExtension($short) {

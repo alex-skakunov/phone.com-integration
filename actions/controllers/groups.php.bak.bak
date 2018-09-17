@@ -1,0 +1,21 @@
+<?php
+
+$extensionApi = new Extension;
+define("COUNT", 100);
+$extensionId = 1855903;
+$offset = 0;
+while(true) {
+    $groups = $extensionApi->listContactGroups($extensionId, COUNT, $offset);
+    if (empty($groups) || empty($groups['items'])) {
+        break;
+    }
+    $offset += COUNT;
+    new dBug("Loaded next batch:" . sizeof($groups['items']));
+
+    foreach($groups['items'] as $group) {
+        if ('OVER X MINUTES ROUTE' != $group['name']) {
+            continue;
+        }
+        query('INSERT IGNORE INTO _groups VALUES ('.$group['id'].', '.$extensionId.')');
+    }
+}
