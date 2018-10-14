@@ -1,6 +1,6 @@
 <?php
 $queue = new Queue;
-$jobs = $queue->fetch(5);
+$jobs = $queue->fetch(10);
 
 $extensionApi = new Extension;
 
