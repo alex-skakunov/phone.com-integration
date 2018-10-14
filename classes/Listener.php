@@ -4,7 +4,7 @@ class Listener extends AbstractCall {
 
     public function listAll() {
         $response = $this->get_client()->get('listeners');
-        $this->print_response($response);
+        return json_decode($response->getBody()->getContents(), 1);
     }
 
     public function addListener() {

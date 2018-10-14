@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?=ucfirst(CURRENT_ACTION)?> — Hunting Lands</title>
+    <title><?=ucfirst(CURRENT_ACTION)?> — ANI route</title>
     <!-- Bootstrap core CSS -->
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
@@ -109,20 +109,26 @@
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <? if(!empty($_SESSION['authenticated'])) : ?>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
+            <?
+              $itemsList = $pagesThatRequireLogin;
+              foreach ($itemsList as $item) {
+                echo '<li class="nav-item ', (CURRENT_ACTION == $item ? 'active' : ''), '">';
+                echo '<a class="nav-link" href="index.php?page=' . $item . '">' . ucfirst($item) . '</a>';
+                echo '</li>'; 
+              }
+            ?>
+          </ul>
+        </div>
 
-          <?
-            $itemsList = array('upload', 'search', 'history', 'statistics');
-            foreach ($itemsList as $item) {
-              echo '<li class="nav-item ', (CURRENT_ACTION == $item ? 'active' : ''), '">';
-              echo '<a class="nav-link" href="index.php?page=' . $item . '">' . ucfirst($item) . '</a>';
-              echo '</li>'; 
-            }
-          ?>
-        </ul>
-      </div>
+        <div style="float: right;" class="navbar-nav">
+          <a class="nav-link" href="index.php?page=logout"><small>Logout</small></a>
+        </div>
+      <? endif; ?>
+
     </nav>
 
     <main role="main" class="container">

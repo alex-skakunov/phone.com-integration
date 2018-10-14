@@ -1,5 +1,7 @@
 composer.phar
+composer.lock
 /vendor/
+/temp/
 logs/*
 etc/build/
 
