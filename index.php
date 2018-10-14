@@ -3,13 +3,17 @@
 include "preload.php"; //this includes all necessary classes and configs
 
 if(empty($_REQUEST['page'])) {
-  $_REQUEST['page'] = 'incoming';
+  $_REQUEST['page'] = 'settings';
 }
 
 $_REQUEST['page'] = strtolower(trim($_REQUEST['page']));
-
-
 define('CURRENT_ACTION', $_REQUEST['page']);
+
+$pagesThatRequireLogin = array('settings', 'listener');
+
+if (in_array(CURRENT_ACTION, $pagesThatRequireLogin) && empty($_SESSION['authenticated'])) {
+    header('Location: index.php?page=login');
+}
 
 if (!file_exists(ACTIONS_DIR . 'controllers/' . $_REQUEST['page'] . '.php')) {
     header('Location: index.php');
