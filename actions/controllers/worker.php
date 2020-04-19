@@ -1,10 +1,11 @@
 <?php
 $queue = new Queue;
-$jobs = $queue->fetch(10);
+$jobs = $queue->fetch(18);
 
 $extensionApi = new Extension;
 
 foreach ($jobs as $job) {
+new dBug($job);
     $start = microtime_float();
 
     $jobId = $job['id'];
@@ -29,7 +30,7 @@ foreach ($jobs as $job) {
         $isPresent = $extensionApi->isCallerPresentInAddressBookAndGroup($extensionId, $contactGroupId, $callerPhoneNumber);
         if (!$isPresent) {
             new dBug('not present');
-            $extensionApi->saveCallerToAddressBookAndGroup(
+            $responseData = $extensionApi->saveCallerToAddressBookAndGroup(
                 $extensionId,
                 $contactGroupId,
                 $contactGroupName,

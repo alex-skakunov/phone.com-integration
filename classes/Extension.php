@@ -24,7 +24,7 @@ class Extension extends AbstractCall {
             throw new Exception('Could not convert the JSON: ' . substr($response->getBody()->getContents(), 0, 200));
         }
 
-        return (int)$data['total'] > 0;
+        return ('success' == $data['message'] && 1 == $data['status']);
     }
 
     public function saveCallerToAddressBookAndGroup($extensionId, $contactGroupId, $contactGroupName, $callerPhoneNumber) {
@@ -37,15 +37,16 @@ class Extension extends AbstractCall {
         if (empty($data)) {
             throw new Exception('Could not convert the JSON: ' . $response->getBody()->getContents());
         }
+        return $data;
     }
 
 
     public function isCallerPresentInGroup($extensionId, $groupId, $callerPhoneNumber) {
-        $response = $this->get_client()->get('extensions/'
+        $response = $this->get_client2()->get('check-if-contact-exists?account_id='.ACCOUNT_ID.'&extension_id='
             . $extensionId
-            . '/contacts?limit=1&fields=brief&filters%5Bphone%5D='
+            . '&phone='
             . $callerPhoneNumber
-            . '&filters%5Bgroup_id%5D='
+            . '&group_id='
             . $groupId,
           array('timeout' => 180)
         );
@@ -54,9 +55,9 @@ class Extension extends AbstractCall {
 
 
     public function getCallerInExtension($extensionId, $callerPhoneNumber) {
-        $response = $this->get_client()->get('extensions/'
+        $response = $this->get_client2()->get('check-if-contact-exists?account_id='.ACCOUNT_ID.'&extension_id='
             . $extensionId
-            . '/contacts?filters%5Bphone%5D='
+            . '&phone='
             . $callerPhoneNumber,
           array('timeout' => 180)
         );

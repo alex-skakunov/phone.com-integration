@@ -31,7 +31,7 @@ class Queue {
     public function setStatusError($id, $errorMessage, $processingTime=null) {
         query(
             'UPDATE queue SET
-                status="queued",
+                status="error",
                 error_message=:error_message,
                 processing_time=:processing_time
              WHERE id=' . $id,
@@ -42,14 +42,16 @@ class Queue {
         );
     }
 
-    public function setStatusSuccess($id, $processingTime=null) {
+    public function setStatusSuccess($id, $processingTime=null, $errorMessage=null) {
         query(
             'UPDATE queue SET
                 status="success",
                 error_message=DEFAULT,
+                error_message=:error_message,
                 processing_time=:processing_time
              WHERE id=' . $id,
             array(
+                ':error_message'   => $errorMessage,
                 ':processing_time' => $processingTime
             )
         );

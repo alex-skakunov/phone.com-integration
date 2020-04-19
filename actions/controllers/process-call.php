@@ -9,7 +9,7 @@ $callLogApi = new CallLog;
 foreach ($mapping as $shortExtensionFrom => $destinationList) {
     // new dBug(array($shortExtensionFrom => $destinationList));
     try {
-        $callersList = $callLogApi->getCallsFromLogs($shortExtensionFrom, '1 hour ago');
+        $callersList = $callLogApi->getCallsFromLogs($shortExtensionFrom, '5 minute ago');
     }
     catch(Exception $e) {
         error_log('[Process call] error: ' . $e);
