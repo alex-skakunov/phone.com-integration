@@ -4,10 +4,8 @@ use Zend\Mail\Transport\Smtp as SmtpTransport;
 use Zend\Mail\Transport\SmtpOptions;
 
 function sendFailEmail($mess) {
-    return; //for now
     $message = new Message();
-    $message->addTo('ITbugs@powerfusion.info');
-    $message->addTo('cphilipaffiliate@gmail.com');
+    $message->addTo(SEND_REPORTS_TO);
     $message->addFrom('Service Report <service.reports.mail@gmail.com>');
     $message->setSubject('An error has occured');
     $message->setBody($mess);
@@ -20,8 +18,8 @@ function sendFailEmail($mess) {
         // Notice port change for TLS is 587
         'connection_class'  => 'plain',
         'connection_config' => [
-            'username' => 'service.reports.mail@gmail.com',
-            'password' => 'accounts567',
+            'username' => REPORTS_SMTP_USERNAME,
+            'password' => REPORTS_SMTP_PASSWORD,
             'ssl'      => 'tls',
         ],
     ]);

@@ -28,14 +28,15 @@ class Queue {
         query('UPDATE queue SET status="processing", error_message=DEFAULT, processing_time=DEFAULT WHERE id=' . $id);
     }
 
-    public function setStatusError($id, $errorMessage, $processingTime=null) {
+    public function setStatusError($id, $errorMessage, $processingTime=null, $reQueue=false) {
         query(
             'UPDATE queue SET
-                status="error",
-                error_message=:error_message,
-                processing_time=:processing_time
+                `status` = :status,
+                `error_message` = :error_message,
+                `processing_time` = :processing_time
              WHERE id=' . $id,
             array(
+                ':status'          => ($reQueue ? 'queued' : 'error'),
                 ':error_message'   => $errorMessage,
                 ':processing_time' => $processingTime
             )
