@@ -45,6 +45,21 @@ foreach ($jobs as $job) {
     }
     catch(Exception $e) {
         $duration = microtime_float() - $start;
-        $queue->setStatusError($jobId, $e->getMessage(), $duration);
+
+        $reQueue = false;
+
+        $is500 = strpos($e->getMessage(), '500 Internal Server Error') != false;
+        $is422 = strpos($e->getMessage(), '422 Unprocessable Entity') != false;
+        $isOtherError = !$is500 && !$is422;
+
+        if ($is500) {
+            $reQueue = true;
+        }
+
+        if ($isOtherError) {
+            sendFailEmail('A new error has occured: ' . $e->getMessage());
+        }
+
+        $queue->setStatusError($jobId, $e->getMessage(), $duration, $reQueue);
     }
 }
