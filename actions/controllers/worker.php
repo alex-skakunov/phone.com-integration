@@ -50,13 +50,15 @@ new dBug($job);
         $reQueue = false;
 
         $is500 = strpos($e->getMessage(), '500 Internal Server Error') != false;
+        $is504 = strpos($e->getMessage(), '504 ') != false;
         $is422 = strpos($e->getMessage(), '422 Unprocessable Entity') != false;
-        $isOtherError = !$is500 && !$is422;
+        $is402 = strpos($e->getMessage(), '402 ') != false;
 
-        if ($is500) {
+        if ($is500 || $is504) {
             $reQueue = true;
         }
 
+        $isOtherError = !$is500 && !$is504 && !$is422 && !$is402;
         if ($isOtherError) {
             sendFailEmail('A new error has occured: ' . $e->getMessage());
         }
